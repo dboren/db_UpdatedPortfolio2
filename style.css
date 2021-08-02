@@ -1,0 +1,12 @@
+body {
+    background-image: url("./Assets/Images/white-waves.png")
+}
+
+header {
+    background-color: rgb(146, 7, 7);
+}
+
+footer {
+    font-size: smaller;
+    background-color: rgb(146, 7, 7);
+}
