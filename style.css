@@ -4,9 +4,15 @@ body {
 
 header {
     background-color: rgb(146, 7, 7);
+    border: goldenrod;
+    border-width: medium;
+    border-style: inset;
 }
 
 footer {
     font-size: smaller;
     background-color: rgb(146, 7, 7);
+    border: goldenrod;
+    border-width: medium;
+    border-style: inset;
 }
