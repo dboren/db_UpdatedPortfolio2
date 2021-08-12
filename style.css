@@ -16,3 +16,7 @@ footer {
     border-width: medium;
     border-style: inset;
 }
+
+.navbar-toggler {
+    background-color: aliceblue;
+}
