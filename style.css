@@ -25,3 +25,43 @@ footer {
 .navbar-toggler {
     background-color: aliceblue;
 }
+
+#wfhrImg {
+    animation-duration: 0.7s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+#curatioImg {
+    animation-duration: 0.8s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+#nplImg {
+    animation-duration: 0.9s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+#dayPlannerImg {
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+#weatherImg {
+    animation-duration: 1.1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+}
+
+@keyframes slidein {
+    from {
+      translate: -125vw 0;
+    }
+  
+    to {
+      translate: 0 0;
+    }
+  }
