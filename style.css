@@ -32,6 +32,10 @@ footer {
     animation-iteration-count: 1;
 }
 
+img:nth-child(1) {
+    filter: drop-shadow(0 11px 11px rgba(0, 0, 0, 0.5));
+  }
+
 #curatioImg {
     animation-duration: 0.8s;
     animation-name: slidein;
