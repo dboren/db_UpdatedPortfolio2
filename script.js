@@ -1,23 +1,69 @@
-// Get the modal
+
 var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("wfhrImg");
-
-console.log(img);
+var wfhrImg = document.getElementById("wfhrImg");
+var curatioImg = document.getElementById("curatioImg");
+var nplImg = document.getElementById("nplImg");
+var dayPlannerImg = document.getElementById("dayPlannerImg");
+var weatherImg = document.getElementById("weatherImg");
 
 var modalImg = document.getElementById("img01");
-// var captionText = document.getElementById("caption");
-img.onclick = function(){
+
+wfhrImg.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-//   captionText.innerHTML = this.alt;
 }
 
-// Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
+//Ideally will need to condense these onclick blocks into a single function repeatable for any image on the page
+
 span.onclick = function() {
   modal.style.display = "none";
 }
+curatioImg.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  }
+  
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+
+  nplImg.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  }
+  
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+
+  dayPlannerImg.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  }
+  
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+
+  weatherImg.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+  }
+  
+  var span = document.getElementsByClassName("close")[0];
+  
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
